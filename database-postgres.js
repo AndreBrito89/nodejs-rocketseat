@@ -1,8 +1,7 @@
 import { randomUUID } from "node:crypto"
 import {sql} from "./db.js"
+
 export class DatabasePostgres {
-
-
     //CREATE
     async create(video){ 
         const videoID = randomUUID()
@@ -19,7 +18,7 @@ export class DatabasePostgres {
         } else{
             videos = await sql`select * from videos`
         }
-        
+        return videos
     }
     //UPDATE
     async update(id, video) {

@@ -38,7 +38,7 @@ server.get('/videos', async (request)=> {
     const search = request.query.search
 
     const videos = await database.list(search)
-
+    
     return videos
 })
 //PUT

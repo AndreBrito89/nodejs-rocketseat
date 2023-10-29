@@ -1,7 +1,7 @@
 # API de CRUD de Vídeos
 
 Esta é uma API simples para criar, ler, atualizar e excluir vídeos. Ela permite que você gerencie informações de vídeo, incluindo título, descrição e URL.
-
+Projeto original: https://www.youtube.com/watch?v=hHM-hr9q4mo&t=4504s
 ## Recursos
 
 A API oferece as seguintes operações de CRUD:
